@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <img src="/Credit card.png" alt="">
+
+            <div id="form-details">
+                <div id="Visa-or-mastercard">
+                    <p id="Visa">Visa or Master card</p>
+                    <p id="PRIMARY">PRIMARY</p>
+                </div>
+
+                <div class="input-box">
+                    <label for="Card-number">Card number</label><br>
+                    <input id="Card-number" maxlength="16" required name="Card-number" type="text" placeholder=" Card number 1111-2222-3333-4444">
+                    
+                </div>
+                <div class="input-box">
+                    <label for="Name">Name on Card</label><br>
+                    <input id="Name" required name="Name" type="Name" placeholder="Name on card" >
+
+                </div>
+                
+
+                <div class="input-box">
+                    <label for="expiration">Expiration</label><br>
+                    <div id="expiration-flex">
+                        <input id="Expiration-Month" maxlength="2" required name="Expiration-Month" type="text" placeholder="MM expiration Month" >
+                        <input id="Expiration-Year" maxlength="4" required name="Expiration-Year" type="text" placeholder="YYYY Expiration year" >
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="CVV">CVV Code</label><br>
+                    <input id="CVV" required maxlength="3" name="CVV" type="text" placeholder="CVV Code" >
+
+                </div>
+
+                <div id="buttons">
+                    <button id="Cancel" type="reset">Cancel</button> 
+                    <button id="Submit" type="submit">Pay Now</button>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
